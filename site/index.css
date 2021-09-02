@@ -91,3 +91,34 @@
 #profile .description-profile h3 {
     font-size: 1.5rem;
 }
+
+/*Sobre*/
+
+#projetos {
+    background-color: #074073;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+#projetos h1 {
+    margin: 20px;
+    font-size: 2rem;
+}
+.trabalhos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.trabalhos .trabalho {
+    width: 90%;
+    background-color: white;
+    color: #074073;
+    height: 200px;
+    border-radius: 5px;
+    margin: 10px;
+}
